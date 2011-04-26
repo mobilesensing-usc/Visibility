@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/titleBarLayout"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+ <Button android:id="@+id/settingsButton" android:layout_height="30px" android:layout_width="wrap_content"
+ android:text="+"
+ android:layout_alignParentLeft="true"
+ android:layout_marginTop="2px"
+ android:textStyle="bold"
+ android:textSize="11px"
+ android:textScaleX="1.2"></Button>
+ <TextView android:id="@+id/titleText" android:layout_height="wrap_content" android:layout_width="wrap_content"
+ android:layout_toRightOf="@id/settingsButton"
+ android:textColor="#ffffff" 
+ android:textSize="12px"
+ android:textStyle="bold"
+ android:layout_centerVertical="true"
+ ></TextView>
+ <Button android:id="@+id/titleButton" android:layout_height="30px" android:layout_width="wrap_content"
+ android:text="Help"
+ android:layout_alignParentRight="true"
+ android:layout_marginTop="2px"
+ android:textSize="10px"
+ android:textScaleX="1.2"></Button>
+</RelativeLayout>
