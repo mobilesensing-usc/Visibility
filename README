@@ -1,0 +1,5 @@
+Airborne particulate matter is a serious threat to both our health and the environment. It is also the primary cause for visibility degradation in urban metropolitan areas. We are working towards an optical technique to measure air visibility (and hence an estimate of some kinds of air pollution) using cameras and other sensors available on smartphones.
+
+Our idea is that using a simple application for the Android phone, users take pictures of the sky. Each picture is tagged with location, orientation, and time data and transferred to a backend server. Visibility is estimated by first calibrating these image radiometrically and then comparing the intensity with an established model of sky luminance.
+
+The current version 1.1 is already out there in the market and available to download for free. Please visit the following link:  https://market.android.com/details?id=com.usc.resl.visibility&feature=search_result
